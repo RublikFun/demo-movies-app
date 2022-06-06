@@ -1,13 +1,83 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #263238;
+  color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* 
+blue-grey darken-4 = bg
+blue lighten-1 = main 
+*/
+
+.app-content {
+  padding: 36px 0;
+  min-height: calc(100vh - 126.5px);
+}
+
+.app-search {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.app-search input:hover,
+.app-search input:focus {
+  border-bottom: 1px solid #42a5f5 !important;
+  box-shadow: none !important;
+}
+
+.app-search .icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.app-filters {
+  margin-bottom: 24px;
+}
+
+.app-filters label + label {
+  margin-left: 24px;
+} 
+
+.app-filters [type="radio"]:checked+span:after {
+  background-color: #42a5f5;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.movie {
+  background-color: #263238;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie .card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.movie .card-content p {
+  margin-top: auto;
+}
+
+.app-footer {
+  padding: 20px 0;
+}
+
