@@ -4,7 +4,7 @@ This Demo App was bootstrapped with [Create React App](https://github.com/facebo
 
 ## OMDb API 
 ### The Open Movie Database
-[API Link] (http://www.omdbapi.com/)
+[API Link](http://www.omdbapi.com/)
 
 The OMDb API is a RESTful web service to obtain movie information, all content and images on the site are contributed and maintained by our users.
 
