@@ -7,7 +7,14 @@ function Header() {
         </a>
         <ul id='nav-mobile' className='right hide-on-med-and-down'>
           <li>
-            <a href='http://www.omdbapi.com/'>OMDb API</a>
+            <a href='https://github.com/RublikFun/demo-movies-app' target='_blank' rel='noreferrer'>
+              REPO
+            </a>
+          </li>
+          <li>
+            <a href='http://www.omdbapi.com/' target='_blank' rel='noreferrer'>
+              OMDb API
+            </a>
           </li>
         </ul>
       </div>
